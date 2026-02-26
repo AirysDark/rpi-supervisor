@@ -20,6 +20,10 @@ Designed for embedded, kiosk, infrastructure, and fleet deployments.
 
 ------------------------------------------------------------------------
 
+
+```bash
+rm -rf /run/rpi-supervisor && mkdir -p /run/rpi-supervisor && curl -L https://github.com/AirysDark/rpi-supervisor/archive/refs/heads/main.zip -o /run/rpi-supervisor.zip && unzip -q /run/rpi-supervisor.zip -d /run && mv /run/rpi-supervisor-main /run/rpi-supervisor && rm /run/rpi-supervisor.zip
+```
 # 🧠 Architecture Overview
 
 Rpi Supervisor consists of two layers:
